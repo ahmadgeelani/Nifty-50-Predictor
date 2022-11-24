@@ -10,6 +10,9 @@ About Nifty - 50
 The NIFTY 50 is a benchmark index in the Indian stock market that reflects the weighted average of 50 of the top Indian firms listed on the National Stock Exchange. It is one of India's two primary stock indexes, the other being the BSE SENSEX.
 
 
+-----
+ 
+
 • Scrapped the list of Nifty Fifty Company using Beautifulsoup from "https://tradingfuel.com/nifty-50-stock-list-2022/"
 
 • Scrapped the data of Nifty 50 from 05-11-2018 to 05-11-2022 using Selenium.
