@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: white;
+  background-image: url('https://www.plancorp.com/hubfs/Plancorp-market-prediction-is-harder-than-you-think.jpeg');
+    background-size: 800px;
+}
+button {
+       background-color: #f0e67d;
+       width: 25%;
+       color: #000;
+       padding: 10px;
+       margin: 5px auto;
+       margin-bottom: 1.25rem;
+       border: none;
+       cursor: pointer;
+       transition: 200ms ease-in-out;
+       border-radius: 10px;
+       font-size: 0.9rem;
+        }
+
+h1{
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+ input[type=text] {
+        width: 100%;
+        margin: 8px 0;
+        margin-bottom: 1rem;
+        padding: 10px 16px;
+        display: inline-block;
+        outline: none;
+        border: none;
+        border-radius: 8px;
+        box-sizing: border-box;
+        background-color: rgb(239, 239, 217);
+        /* opacity: 100%; */
+    }
+ button:hover {
+        /* opacity: 0.7; */
+        background: #fced49;
+        color: black;
+        /* border: 0.1px solid black; */
+        /* transform: scale(1.025); */
+       
+    }
+ .container {
+        padding: 25px;
+        background-color: #add8e6;
+        width: auto;
+        margin: auto;
+        /* overflow: hidden; */
+        /* border-radius: 1rem;
+        box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2); */
+    }
+  form {
+    font-family: "Roboto",sans-serif;
+    /* position: relative; */
+    /* z-index: 1; */
+    /* background: #edb7b7; */
+    /* opacity: 99%; */
+    max-width: 350px;
+    margin: 20px auto 100px;
+    padding: 25px;
+    /* text-align: center; */
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.24);
+    border-radius: 10px;   
+    background-color: #2e7cb4;
+    color: white;
+   opacity: 85%;
+   /* background-image: url('https://www.plancorp.com/hubfs/Plancorp-market-prediction-is-harder-than-you-think.jpeg'); */
+    /* background-size: contain; */
+
+}
+input:focus{
+    background-color: rgb(243, 243, 181);
+}
+</style>
+</head>
+<body>
+   <h1> Nifty - 50 Stock Prediction </h1>
+    <form>
+        
+            <label>Stock Name : </label>
+            <input type="text" placeholder="Enter Stock Name" name="name" required>
+            <label>Total quantity : </label>
+            <input type="text" placeholder="Enter Total Quantity" name="quantity" required>
+            <label>Buying date : </label>
+            <input type="text" placeholder="Enter Buying Date" name="Buying_date" required>
+            <label>Selling date : </label>
+            <input type="text" placeholder="Enter Selling Date" name="Selling_date" required>
+            <button type="submit">Submit</button>
+            <br>
+            <label>Final P&L : </label>
+            <input type="text" placeholder="Final P&L" name="P&L" value="">
+        
+    </form>
+</body>
+</html>
